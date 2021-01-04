@@ -44,9 +44,7 @@ nav {
     order: 2;
 }
 .left-menu{
-    opacity: 0;
-    height: 0;
-    width: 0;
+    display: none;
 }
 .menu-list {
     display: flex;
@@ -75,7 +73,6 @@ nav {
 .logo-img {
     display: block;
     width: 70px;
-    margin: 0 auto;
 }
 /* slider xs */
 .slider-item {
@@ -512,6 +509,7 @@ nav {
     }
     .show-more-link {
         font-size: 24px;
+    }
 }
 
 /* laptop md*/
@@ -537,9 +535,6 @@ nav {
         align-items: center;
     }
     .left-menu {
-        opacity: 1;
-        height: auto;
-        width: auto;
         justify-content: flex-end;
     }
     .display-mobile {
@@ -553,6 +548,7 @@ nav {
     }
     .logo-img {
         width: 100px;
+        margin: 0 auto;
     }
     /* slider min 992  */
     .slick-dots {
@@ -629,5 +625,89 @@ nav {
     }
     .product-item__hover-text {
         font-size: 16px;
+    }
+}
+
+/* only mobile */
+
+/* mobile-menu */
+
+@media(max-width:991px) {
+
+    .right-menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .nav-mobile-menu {
+        width: 21px;
+        height: 21px;
+        position: relative;
+        z-index: 6;
+    }
+    .nav-mobile-menu span {
+        height: 3px;
+        background-color: #9c759c;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transition: .25s ease-in-out;
+    }
+    .nav-mobile-menu span:nth-child(1) {
+        top: 1px;
+    }
+    .nav-mobile-menu span:nth-child(2) {
+        top: 9px;
+    }
+    .nav-mobile-menu span:nth-child(3) {
+        bottom: 1px;
+    }
+    .hidden-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .navigation {
+        width: 100%;
+        top: 140px;
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        transform: translateX(150%);
+        transition: all 500ms ease-in-out;
+        background-color: #9c759c;
+        justify-content: center;
+    }
+    .nav-mobile-menu.active-menu span:nth-child(1) {
+        top: 50%;
+        transform: rotate(225deg);
+    }
+    .nav-mobile-menu.active-menu span:nth-child(2) {
+        top: 50%;
+        transform: rotate(-225deg);
+    }
+    .nav-mobile-menu.active-menu span:nth-child(3) {
+        transform: scale(0);
+    }
+    .navigation.active-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+        z-index: 5;
+    }
+    .right-menu .menu-list {
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .right-menu .menu-item {
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+    }
+    .right-menu .menu-link {
+        color: #ffffff;
+        font-size: 15px;
+        padding: 3px;
+        text-transform: uppercase;
     }
 }
