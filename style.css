@@ -230,8 +230,8 @@ nav {
     justify-content: center;
 }
 .advantage-item__img {
-    display: table;
     width: 110px;
+    min-width: 110px;
     height: 110px;
     border-radius: 50%;
     background-color: rgba(242, 213, 236, 0.75);
