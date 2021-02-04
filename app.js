@@ -20,6 +20,40 @@ $(document).ready(function(){
    
     $('.your-class').slick({
         dots:true,
+        speed: 2000
     });
+
+    // AOS
+
+    AOS.init();
+
+    // btn goTop
+
+    $(function () {
+        $('.scrollup').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 1000);
+        })
+    })
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    // show-more
+
+    let showMoreAssortment = document.querySelector(".assortment-link");
+    let hideRowAssortment = document.querySelector(".hide-row-assortment");
+
+    showMoreAssortment.addEventListener("click", function(e) {
+        e.preventDefault();
+        hideRowAssortment.classList.remove("hide");
+        showMoreAssortment.classList.add("hide");
+    })
 
 });

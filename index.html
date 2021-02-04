@@ -9,11 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Mousse Cake</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link href="aos-master/dist/aos.css" rel="stylesheet">
+
 
     <link rel="stylesheet" href="style.css">
 
@@ -116,7 +118,7 @@
         </section>
         <section class="about">
             <div class="row">
-                <div class="section-title col-xs-12 col-md-12">
+                <div class="section-title col-xs-12 col-md-12" data-aos="fade">
                     <h2 class="section-title__h2"><span class="section-title__bracket">{</span>Обо мне<span
                             class="section-title__bracket">}</span></h2>
                 </div>
@@ -124,12 +126,12 @@
             <div class="row about-row">
                 <div class="container">
                     <div class="about__body direction-column">
-                        <div class="about__column col-xs-12 col-md-6">
+                        <div class="about__column col-xs-12 col-md-6" data-aos="flip-left" data-aos-duration="1500">
                             <div class="about__image">
                                 <img src="images/about.jpg" alt="about" class="about-img">
                             </div>
                         </div>
-                        <div class="about__column col-xs-12 col-md-6">
+                        <div class="about__column col-xs-12 col-md-6" data-aos="flip-right" data-aos-duration="1500">
                             <div class="column__discription">
                                 <h3 class="title__h3">Добро пожаловать в<br>Mousse Cake Chernigov!</h3>
                                 <p class="text about-text">Привет! Меня зовут Елена и я Ваш кондитер-вдохновитель! :) Я
@@ -160,7 +162,7 @@
         </section>
         <section class="advantage">
             <div class="row">
-                <div class="section-title col-xs-12 col-md-12">
+                <div class="section-title col-xs-12 col-md-12" data-aos="fade">
                     <h2 class="section-title__h2"><span class="section-title__bracket">{</span>Преимущества<span
                             class="section-title__bracket">}</span></h2>
                 </div>
@@ -168,54 +170,46 @@
             <div class="row advantage-row">
                 <div class="container">
                     <div class="advantage__body direction-column">
-                        <div class="advantage-item col-xs-12 col-md-6 col-lg-4">
-                            <!-- <div class=""> -->
-                                <div class="advantage-item__img advantage-item__img1"></div>
-                            <!-- </div> -->
+                        <div class="advantage-item col-xs-12 col-md-6 col-lg-4" data-aos="zoom-in">
+                            <div class="advantage-item__img advantage-item__img1"></div>
                             <div class="advantage-item__discription col-xs-8">
                                 <h4 class="title__h4">Индивидуалный подход</h4>
-                                <p class="advantage-item-text">Каждый заказ - уникален! Можете не сомневаться, что все
-                                    будет выполнено согласно Ваших пожеланий и на высоком уровне!</p>
+                                <p class="advantage-item-text">Каждый заказ - уникален! Можете не сомневаться, что все будет выполнено согласно Ваших пожеланий и на высоком уровне!</p>
                             </div>
                         </div>
-                        <div class="advantage-item col-xs-12 col-md-6 col-lg-4">
+                        <div class="advantage-item col-xs-12 col-md-6 col-lg-4" data-aos="zoom-in">
                             <div class="advantage-item__img advantage-item__img2"></div>
                             <div class="advantage-item__discription">
                                 <h4 class="title__h4">Креативный дизайн</h4>
-                                <p class="advantage-item-text">Подберу цветовую гамму, украшения и все детали
-                                    оригинального оформления под концепцию Вашего праздника! </p>
+                                <p class="advantage-item-text">Подберу цветовую гамму, украшения и все детали оригинального оформления под концепцию Вашего праздника!</p>
                             </div>
                         </div>
-                        <div class="advantage-item col-xs-12 col-md-6 col-lg-4">
+                        <div class="advantage-item col-xs-12 col-md-6 col-lg-4" data-aos="zoom-in">
                             <div class="advantage-item__img advantage-item__img3"></div>
                             <div class="advantage-item__discription">
                                 <h4 class="title__h4">Новые сочетания вкусов</h4>
-                                <p class="advantage-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Porro aut quibusdam accusantium eaque dicta aut quibusdam accusantium dicta aut</p>
+                                <p class="advantage-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aut quibusdam accusantium eaque dicta aut quibusdam accusantium dicta aut</p>
                             </div>
                         </div>
-                        <div class="advantage-item col-xs-12 col-md-6 col-lg-4">
+                        <div class="advantage-item col-xs-12 col-md-6 col-lg-4" data-aos="zoom-in">
                             <div class="advantage-item__img advantage-item__img4"></div>
                             <div class="advantage-item__discription">
                                 <h4 class="title__h4">Высокое качество ингридиентов</h4>
-                                <p class="advantage-item-text">Подбираю максимально свежие продукты для Ваших заказов -
-                                    чтобы десерты были не только безумно вкусные, но и полезные!</p>
+                                <p class="advantage-item-text">Подбираю максимально свежие продукты для Ваших заказов - чтобы десерты были не только безумно вкусные, но и полезные!</p>
                             </div>
                         </div>
-                        <div class="advantage-item col-xs-12 col-md-6 col-lg-4">
+                        <div class="advantage-item col-xs-12 col-md-6 col-lg-4" data-aos="zoom-in">
                             <div class="advantage-item__img advantage-item__img5"></div>
                             <div class="advantage-item__discription">
                                 <h4 class="title__h4">Опыт работы и сотни довольных клиентов</h4>
-                                <p class="advantage-item-text">Широкий выбор оригинальных рецептов, наработанный годами
-                                    собственного опыта. Больше сотни положительных отзывов!</p>
+                                <p class="advantage-item-text">Широкий выбор оригинальных рецептов, наработанный годами собственного опыта. Больше сотни положительных отзывов!</p>
                             </div>
                         </div>
-                        <div class="advantage-item col-xs-12 col-md-6 col-lg-4">
+                        <div class="advantage-item col-xs-12 col-md-6 col-lg-4" data-aos="zoom-in">
                             <div class="advantage-item__img advantage-item__img6"></div>
                             <div class="advantage-item__discription">
                                 <h4 class="title__h4">Оперативность и возможность доставки</h4>
-                                <p class="advantage-item-text">Сроки выполнения заказа и доставки тщательно
-                                    соблюдаются.Сроки выполнения заказа и доставки...</p>
+                                <p class="advantage-item-text">Сроки выполнения заказа и доставки тщательно соблюдаются.Сроки выполнения заказа и доставки...</p>
                             </div>
                         </div>
                     </div>
@@ -223,9 +217,8 @@
             </div>
         </section>
         <section class="assortment">
-
                 <div class="row">
-                    <div class="section-title col-xs-12 col-md-12">
+                    <div class="section-title col-xs-12 col-md-12" data-aos="fade">
                         <h2 class="section-title__h2"><span class="section-title__bracket">{</span>Ассортимент<span
                                 class="section-title__bracket">}</span></h2>
                     </div>
@@ -233,7 +226,7 @@
                 <div class="row assortment-row">
                     <div class="container">
                         <div class="assortment__body direction-row">
-                            <div class="product col-xs-12 col-sm-6 col-md-4">
+                            <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
                                 <div class="product-item">
                                     <img src="images/wedding.jpg" alt="assortment" class="product-img">
                                     <div class="product-item__hover-image">
@@ -247,7 +240,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product col-xs-12 col-sm-6 col-md-4">
+                            <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
                                 <div class="product-item">
                                     <img src="images/heart.jpg" alt="assortment" class="product-img">
                                     <div class="product-item__hover-image">
@@ -261,7 +254,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product col-xs-12 col-sm-6 col-md-4">
+                            <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
                                 <div class="product-item">
                                     <img src="images/birthday.jpg" alt="assortment" class="product-img">
                                     <div class="product-item__hover-image">
@@ -275,7 +268,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product col-xs-12 col-sm-6 col-md-4">
+                            <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
                                 <div class="product-item">
                                     <img src="images/mousse.jpg" alt="assortment" class="product-img">
                                     <div class="product-item__hover-image">
@@ -289,7 +282,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product col-xs-12 col-sm-6 col-md-4">
+                            <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
                                 <div class="product-item">
                                     <img src="images/macaroons.jpg" alt="assortment" class="product-img">
                                     <div class="product-item__hover-image">
@@ -303,7 +296,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product col-xs-12 col-sm-6 col-md-4">
+                            <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
                                 <div class="product-item">
                                     <img src="images/cupcake.jpg" alt="assortment" class="product-img">
                                     <div class="product-item__hover-image">
@@ -318,18 +311,64 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="hide-row-assortment hide">
+                            <div class="assortment__body direction-row">
+                                <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
+                                    <div class="product-item">
+                                        <img src="images/wedding.jpg" alt="assortment" class="product-img">
+                                        <div class="product-item__hover-image">
+                                            <img src="images/wedding-hover.jpg" alt="assortment" class="product-hover-img">
+                                        </div>
+                                        <div class="product-item__hover-bgd"></div>
+                                        <div class="product-item__hover-border">
+                                            <h3 class="product-item__hover-title">Свадебный торт</h3><br>
+                                            <p class="product-item__hover-text">Lorem ipsum, dolor sit amet consectetur
+                                                adipisicing elit. Vel, ipsa.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
+                                    <div class="product-item">
+                                        <img src="images/heart.jpg" alt="assortment" class="product-img">
+                                        <div class="product-item__hover-image">
+                                            <img src="images/heart-hover.jpg" alt="assortment" class="product-hover-img">
+                                        </div>
+                                        <div class="product-item__hover-bgd"></div>
+                                        <div class="product-item__hover-border">
+                                            <h3 class="product-item__hover-title">Праздничный торт</h3><br>
+                                            <p class="product-item__hover-text">Lorem ipsum, dolor sit amet consectetur
+                                                adipisicing elit. Vel, ipsa.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
+                                    <div class="product-item">
+                                        <img src="images/birthday.jpg" alt="assortment" class="product-img">
+                                        <div class="product-item__hover-image">
+                                            <img src="images/birthday-hover.jpg" alt="assortment" class="product-hover-img">
+                                        </div>
+                                        <div class="product-item__hover-bgd"></div>
+                                        <div class="product-item__hover-border">
+                                            <h3 class="product-item__hover-title">Детский торт</h3><br>
+                                            <p class="product-item__hover-text">Lorem ipsum, dolor sit amet consectetur
+                                                adipisicing elit. Vel, ipsa.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="show-more-btn col-xs-12">
-                        <a href="#" class="show-more-link">Показать еще...</a>
+                        <a href="#" class="show-more-link assortment-link">Показати ще...</a>
                     </div>
                 </div>
             </div>
         </section>
         <section class="filling">
             <div class="row">
-                <div class="section-title col-xs-12 col-md-12">
+                <div class="section-title col-xs-12 col-md-12" data-aos="fade">
                     <h2 class="section-title__h2"><span class="section-title__bracket">{</span>Вкусы<span
                             class="section-title__bracket">}</span></h2>
                 </div>
@@ -337,7 +376,7 @@
             <div class="row filling-row">
                 <div class="container">
                     <div class="filling__body direction-row">
-                        <div class="product col-xs-12 col-sm-6 col-md-4">
+                        <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
                             <div class="product-item product-item__scale">
                                 <img src="images/filling1.jpg" alt="filling" class="product-img">
                                 <div class="filling-item__hover-bgd"></div>
@@ -351,7 +390,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-xs-12 col-sm-6 col-md-4">
+                        <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
                             <div class="product-item product-item__scale">
                                 <img src="images/filling2.jpg" alt="filling" class="product-img">
                                 <div class="filling-item__hover-bgd"></div>
@@ -363,7 +402,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-xs-12 col-sm-6 col-md-4">
+                        <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
                             <div class="product-item product-item__scale">
                                 <img src="images/filling3.jpg" alt="filling" class="product-img">
                                 <div class="filling-item__hover-bgd"></div>
@@ -375,7 +414,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-xs-12 col-sm-6 col-md-4">
+                        <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
                             <div class="product-item product-item__scale">
                                 <img src="images/filling4.jpg" alt="filling" class="product-img">
                                 <div class="filling-item__hover-bgd"></div>
@@ -387,7 +426,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-xs-12 col-sm-6 col-md-4">
+                        <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
                             <div class="product-item product-item__scale">
                                 <img src="images/filling5.jpg" alt="filling" class="product-img">
                                 <div class="filling-item__hover-bgd"></div>
@@ -399,7 +438,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-xs-12 col-sm-6 col-md-4">
+                        <div class="product col-xs-12 col-sm-6 col-md-4" data-aos="fade">
                             <div class="product-item product-item__scale">
                                 <img src="images/filling7.jpg" alt="filling" class="product-img">
                                 <div class="filling-item__hover-bgd"></div>
@@ -424,7 +463,7 @@
         </section>
         <section class="prices">
             <div class="row">
-                <div class="section-title col-xs-12 col-md-12">
+                <div class="section-title col-xs-12 col-md-12" data-aos="fade">
                     <h2 class="section-title__h2"><span class="section-title__bracket">{</span>Цены<span
                             class="section-title__bracket">}</span></h2>
                 </div>
@@ -462,18 +501,34 @@
                         <div class="prices__column col-xs-12 col-md-6">
                             <div class="prices-images-row">
                                 <div class="prices-images__column_1">
-                                    <img src="images/price6.jpg" alt="price" class="price-img">
-                                    <img src="images/price14.jpg" alt="price" class="price-img">
-                                    <img src="images/price7.jpg" alt="price" class="price-img">
+                                    <div class="price-image">
+                                        <img src="images/price6.jpg" alt="price" class="price-img">
+                                    </div>
+                                    <div class="price-image">
+                                        <img src="images/price14.jpg" alt="price" class="price-img">
+                                    </div>
+                                    <div class="price-image">
+                                        <img src="images/price7.jpg" alt="price" class="price-img">
+                                    </div>
                                 </div>
                                 <div class="prices-images__column_2">
-                                    <img src="images/price8.jpg" alt="price" class="price-img">
-                                    <img src="images/price10.jpg" alt="price" class="price-img">
+                                    <div class="price-image">
+                                        <img src="images/price8.jpg" alt="price" class="price-img">
+                                    </div>
+                                    <div class="price-image">
+                                        <img src="images/price10.jpg" alt="price" class="price-img">
+                                    </div>
                                 </div>
                                 <div class="prices-images__column_1">
-                                    <img src="images/price5.jpg" alt="price" class="price-img">
-                                    <img src="images/price11.jpg" alt="price" class="price-img">
-                                    <img src="images/price3.jpg" alt="price" class="price-img">
+                                    <div class="price-image">
+                                        <img src="images/price5.jpg" alt="price" class="price-img">
+                                    </div>
+                                    <div class="price-image">
+                                        <img src="images/price11.jpg" alt="price" class="price-img">
+                                    </div>
+                                    <div class="price-image">
+                                        <img src="images/price3.jpg" alt="price" class="price-img">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -483,7 +538,7 @@
         </section>
         <section class="partners">
             <div class="row">
-                <div class="section-title col-xs-12 col-md-12">
+                <div class="section-title col-xs-12 col-md-12" data-aos="fade">
                     <h2 class="section-title__h2"><span class="section-title__bracket">{</span>Партнерам<span
                             class="section-title__bracket">}</span></h2>
                 </div>
@@ -525,7 +580,7 @@
         </section>
         <section class="contacts">
             <div class="row">
-                <div class="section-title col-xs-12 col-md-12">
+                <div class="section-title col-xs-12 col-md-12" data-aos="fade">
                     <h2 class="section-title__h2"><span class="section-title__bracket">{</span>Контакты<span
                             class="section-title__bracket">}</span></h2>
                 </div>
@@ -533,17 +588,17 @@
             <div class="row contacts-row">
                 <div class="container">
                     <div class="contacts__body direction-column">
-                        <div class="contacts__column col-xs-12 col-md-4">
+                        <div class="contacts__column col-xs-12 col-md-4" data-aos="fade">
                             <p class="contacts-text"><i class="fa fa-home" aria-hidden="true"></i> 14000, г.
                                 Чернигов<br>ул. Текстильщиков</p>
                         </div>
-                        <div class="contacts__column col-xs-12 col-md-4">
+                        <div class="contacts__column col-xs-12 col-md-4" data-aos="fade">
                             <a href="mailto:moussecake2017@gmail.com" class="contacts-link"><i class="fa fa-envelope"
                                     aria-hidden="true"></i> moussecake2017@gmail.com</a>
                             <a href="tel: +380633384882" class="contacts-link"><i class="fa fa-phone-square"
                                     aria-hidden="true"></i> +38 (063) 338 48 82</a>
                         </div>
-                        <div class="contacts__column col-xs-12 col-md-4">
+                        <div class="contacts__column col-xs-12 col-md-4" data-aos="fade">
                             <div class="contacts__links">
                                 <a href="https://www.facebook.com/Mousse-Cake-Chernigov-673177709536931/?ref=page_internal"
                                     target="_blank" class="social-link"><i class="fa fa-facebook-square fa-2x"
@@ -561,17 +616,19 @@
                 </div>
             </div>
         </section>
-
     </main>
-
-
-
     <footer class="footer">
-        <p class="copyright">&copy 2020 MousseCake</p>
+        <p class="copyright">&copy 2021 MousseCake. Всі права захищені</p>
     </footer>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <div class="scrollup">
+        <i class="fa fa-caret-up"></i>
+    </div>
+
+    <script src="jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="aos-master/dist/aos.js"></script>
+
 
     <script src="app.js"></script>
 </body>
