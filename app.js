@@ -20,7 +20,11 @@ $(document).ready(function(){
    
     $('.your-class').slick({
         dots:true,
-        speed: 2000
+        autoplay: true,
+        autoplaySpeed: 1000,
+        infinite: true,
+        fade: true,
+        cssEase: 'linear'
     });
 
     // AOS
