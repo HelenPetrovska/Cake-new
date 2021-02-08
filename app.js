@@ -32,7 +32,7 @@ $(document).ready(function(){
     $('.your-class').slick({
         dots:true,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 2000,
         infinite: true,
         fade: true,
         cssEase: 'linear'
