@@ -32,7 +32,7 @@ $(document).ready(function(){
     $('.your-class').slick({
         dots:true,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 1000,
         infinite: true,
         fade: true,
         cssEase: 'linear'
@@ -48,7 +48,7 @@ $(document).ready(function(){
         $('.scrollup').click(function () {
             $("html, body").animate({
                 scrollTop: 0
-            }, 500);
+            }, 1000);
         })
     })
 
@@ -79,5 +79,8 @@ $(document).ready(function(){
         hideRowFiling.classList.remove("hide");
         showMoreFilling.classList.add("hide");
     })
+
+    // insta
+
 
 });
