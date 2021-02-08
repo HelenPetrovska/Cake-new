@@ -80,7 +80,10 @@ $(document).ready(function(){
         showMoreFilling.classList.add("hide");
     })
 
-    // insta
+    // hover
+
+    document.addEventListener("touchstart", function(){}, true);
+
 
 
 });

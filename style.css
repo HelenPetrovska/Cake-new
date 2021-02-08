@@ -312,18 +312,13 @@ nav {
     flex-direction: column;
     justify-content: flex-end
 }
-/* .product-item:hover .product-item__hover-image,
+.product-item:hover .product-item__hover-image,
 .product-item:hover .product-item__hover-bgd,
 .product-item:hover .product-item__hover-border,
 .product-item:hover .filling-item__hover-bgd {
     opacity: 1;
-} */
-.product-item:active .product-item__hover-image,
-.product-item:active .product-item__hover-bgd,
-.product-item:active .product-item__hover-border,
-.product-item:active .filling-item__hover-bgd {
-    opacity: 1;
 }
+
 .product-item__hover-title {
     color: #ffffff;
     font-size: 20px;
