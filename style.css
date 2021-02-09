@@ -413,14 +413,17 @@ nav {
 }
 .show-insta {
     font-family: 'Open Sans', sans-serif;
+    color: #cc99cc;
     font-weight: 500;
     text-transform: uppercase;
     border: 1px solid #cc99cc;
     border-radius: 7px;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease;
+    background: linear-gradient(to right, #ffffff, #edc6df);
+
 }
 .show-insta:hover {
-    background-color: #cc99cc;
+    background: linear-gradient(to right, #f5e1f2, #cc99cc);
     color: #ffffff;
 }
 /* partners xs*/
