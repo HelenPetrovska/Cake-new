@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
     // mobile-menu
@@ -83,7 +84,4 @@ $(document).ready(function(){
     // hover
 
     document.addEventListener("touchstart", function(){}, true);
-
-
-
 });
